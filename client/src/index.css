@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo,
+.bestS {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.icon {
+    width: 20px;
+    height: 100%;
+}
+
+
+#root {
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+/* Width */
+.scroll-container::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 0; /* Thinner width for vertical scrollbar */
+    height: 0.15rem; /* Thinner height for horizontal scrollbar */
+}
+
+/* Track */
+.scroll-container::-webkit-scrollbar-track, body::-webkit-scrollbar {
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+/* Handle */
+.scroll-container::-webkit-scrollbar-thumb , body::-webkit-scrollbar{
+    background: rgb(226, 226, 226);
+    border-radius: 4px; 
+}
+
+/* Handle on hover */
+.scroll-container::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar {
+    background: #777777;
+}
