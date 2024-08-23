@@ -116,7 +116,7 @@ const Cart = () => {
                                 return (
                                     <div
                                         key={product.id}
-                                        className='border-b-1 flex items-start relative xs:h-[100px] sm:h-[120px] py-4'>
+                                        className='border-b-1 flex items-start relative xs:h-[110px] sm:h-[120px] py-4'>
                                         <p className="xs:text-xs sm:text-sm cursor-pointer hover:scale-110 absolute xs:top-0 xs:right-0" onClick={() => toggleItemCart(product._id)}>
                                             ❌
                                         </p>
